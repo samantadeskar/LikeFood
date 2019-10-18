@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".LoginFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_300"
+        android:src="@drawable/overproject" />
+
+    <EditText
+        android:id="@+id/edittext_email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_8"
+        android:layout_marginEnd="@dimen/size_8"
+        android:alpha="0.5"
+        android:background="@color/gray"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawablePadding="@dimen/size_8"
+        android:hint="@string/email"
+        android:padding="@dimen/size_8"
+        android:textSize="@dimen/size_25"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/edittext_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_8"
+        android:layout_marginEnd="@dimen/size_8"
+        android:background="@color/gray"
+        android:alpha="0.5"
+        android:layout_marginTop="@dimen/size_8"
+        android:textSize="@dimen/size_25"
+        android:drawableStart="@drawable/ic_https_black_24dp"
+        android:padding="@dimen/size_8"
+        android:hint="Password"
+        android:drawablePadding="@dimen/size_8"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_login"
+        android:background="@drawable/button"
+        android:text="@string/login"
+        android:layout_marginTop="@dimen/size_25"
+        android:textSize="@dimen/size_25"
+        android:layout_marginStart="@dimen/size_8"
+        android:layout_marginEnd="@dimen/size_8"
+        android:padding="@dimen/size_8"
+        android:alpha="0.7"/>
+</LinearLayout>
