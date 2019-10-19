@@ -11,8 +11,8 @@
         android:width="@dimen/size_1"
         android:color="@color/black"/>
     <corners
-        android:radius="@dimen/size_5"/>
-    <solid
+        android:radius="@dimen/size_25"/>
+   <solid
         android:color="#abe9e9e9"
         />
 </shape>

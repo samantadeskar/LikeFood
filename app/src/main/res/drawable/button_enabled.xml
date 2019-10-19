@@ -9,9 +9,9 @@
         />
     <stroke
         android:width="@dimen/size_1"
-        android:color="@color/white"/>
+        android:color="@color/colorPrimaryDark"/>
     <corners
-        android:radius="@dimen/size_5"/>
+        android:radius="@dimen/size_15"/>
     <solid
-        android:color="@color/white"/>
+        android:color="@color/colorPrimary"/>
 </shape>
