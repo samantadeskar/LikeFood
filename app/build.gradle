@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: "kotlin-kapt"
+
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
@@ -36,4 +40,10 @@ dependencies {
 
     //material design
     implementation "com.google.android.material:material:1.0.0"
+
+    //firebase
+    implementation 'com.google.firebase:firebase-core:17.2.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
 }

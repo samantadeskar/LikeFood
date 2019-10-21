@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399864386127",
+    "firebase_url": "https://likefood-46ce5.firebaseio.com",
+    "project_id": "likefood-46ce5",
+    "storage_bucket": "likefood-46ce5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399864386127:android:29e6f6e741a44b9e23903a",
+        "android_client_info": {
+          "package_name": "com.example.likefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399864386127-bp88hi5fgabrq7k5b3g1gmr7p0m0ffu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.likefood",
+            "certificate_hash": "f43f702e9311c54f34067bb42f6ffeee684bf0a7"
+          }
+        },
+        {
+          "client_id": "399864386127-ej63q2l5jhpe7902gsveieqe983fc3ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_IQ6W575w1cjVlYr_TIkFKPhqrmhh4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399864386127-ej63q2l5jhpe7902gsveieqe983fc3ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
